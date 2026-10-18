@@ -3,6 +3,7 @@
 -- Login de teste: admin@gpbus.dev / senha: gpbus123 (CPF para recuperar senha: 000.000.000-00)
 -- A senha é salva como hash PBKDF2-SHA256.
 
+SET NAMES utf8mb4;
 USE gpbus;
 
 -- Limpa os dados de teste para o script poder ser rodado mais de uma vez.

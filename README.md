@@ -4,6 +4,8 @@ Aplicativo desktop de gestão do **GPbuS**, um sistema multiplataforma de transp
 
 Enquanto os apps mobile atendem passageiros e motoristas, o desktop é o painel das **empresas de ônibus**: nele o administrador gerencia motoristas e linhas e acompanha indicadores da operação.
 
+![Demonstração do GPbuS Desktop](docs/demo.gif)
+
 ## Funcionalidades
 
 - **Autenticação de administradores:** cadastro com foto de perfil, login com opção "lembrar-me" e recuperação de senha
@@ -11,6 +13,20 @@ Enquanto os apps mobile atendem passageiros e motoristas, o desktop é o painel 
 - **Gestão de linhas:** cadastro, consulta, edição e exclusão (sentidos, horários de partida e empresa)
 - **Analytics:** painel com gráfico de faturamento diário, contadores (downloads, clientes, motoristas) e acompanhamento da meta mensal, alimentado por uma planilha Excel
 - **Personalização:** modo claro/escuro, seleção de idioma e tela de abertura (splash screen)
+
+## Telas
+
+| Login | Analytics |
+|---|---|
+| ![Login](docs/01-login.png) | ![Analytics](docs/02-analytics.png) |
+
+| Consulta de motoristas | Edição de motorista |
+|---|---|
+| ![Motoristas](docs/03-motoristas.png) | ![Editar motorista](docs/04-editar-motorista.png) |
+
+| Consulta de linhas | Configurações | Modo escuro |
+|---|---|---|
+| ![Linhas](docs/05-linhas.png) | ![Configurações](docs/06-configuracoes.png) | ![Modo escuro](docs/07-modo-escuro.png) |
 
 ## Tecnologias
 
@@ -24,7 +40,7 @@ Enquanto os apps mobile atendem passageiros e motoristas, o desktop é o painel 
 
 1. Abra `GPbuS.sln` no Visual Studio 2019 ou superior.
 2. Restaure os pacotes NuGet (clique com o botão direito na solução → **Restaurar Pacotes NuGet**).
-3. No MySQL Workbench, conectado ao seu MySQL local, execute `database/schema.sql` e depois `database/seed.sql`. Isso cria o banco `gpbus` com dados fictícios.
+3. No MySQL Workbench, conectado ao seu MySQL local, execute `database/schema.sql` e depois `database/seed.sql`. Isso cria o banco `gpbus` com dados fictícios. Pela linha de comando, use `mysql -u root -p --default-character-set=utf8mb4 -e "source database/seed.sql"` para preservar os acentos.
 4. Na pasta `GPbuS/`, copie `connectionStrings.example.config` para `connectionStrings.config` e preencha com os dados do seu MySQL (por exemplo, `Server=localhost;Database=gpbus;Uid=root;Pwd=sua_senha;`). Esse arquivo fica fora do Git.
 5. Compile e execute (**F5**) e entre com o usuário de teste: `admin@gpbus.dev` / `gpbus123`. Para testar a recuperação de senha, use o CPF `000.000.000-00`.
 
