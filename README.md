@@ -48,12 +48,27 @@ A pasta `database/` contém a estrutura completa do banco do sistema, incluindo 
 
 ## Equipe
 
-Projeto desenvolvido em grupo por 4 alunos do Cotil-Unicamp. Todos participaram das diferentes frentes do projeto:
+Projeto Integrador do Técnico em Desenvolvimento de Sistemas do Cotil-Unicamp, aprovado em novembro de 2023 e orientado pelo Prof. José Alberto Matioli. Desenvolvido por uma equipe de 4 alunos, com a seguinte divisão de frentes:
 
 - **Luan Silva Ribeiro**: aplicativo desktop ([LinkedIn](https://www.linkedin.com/in/luan-silva-ribeiro))
-- **Newton Eduardo Pena Villegas**: aplicativos mobile
-- **[Nome]**: [parte do projeto]
-- **[Nome]**: [parte do projeto]
+- **Laura Nogueira Pereira** (gerente do projeto): site web
+- **Newton Eduardo Pena Villegas**: aplicativo mobile
+- **Pedro Henrique Sousa de Mello**: aplicativo mobile
+
+O projeto foi apresentado na **II FECITEC (Feira de Ciência e Tecnologia)**.
+
+O processo do projeto incluiu Business Model Canvas, termo de abertura, prototipação das interfaces no Figma, modelagem do banco em MySQL e apresentações avaliativas.
+
+A revisão de segurança e a publicação deste repositório, em 2026, foram feitas por Luan Silva Ribeiro.
+
+## Documentação e banner
+
+- [Documentação completa do TCC (PDF)](docs/documentacao-gpbus.pdf): problema, objetivos, metodologia e o desenvolvimento das versões web, desktop e mobile
+- [Banner apresentado na II FECITEC (PDF)](docs/banner-fecitec.pdf)
+
+<p align="center">
+  <img src="docs/banner-fecitec.jpg" alt="Banner do GPbuS na II FECITEC" width="480">
+</p>
 
 ## Melhorias após o TCC
 
