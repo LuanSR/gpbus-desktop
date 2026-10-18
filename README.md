@@ -59,8 +59,6 @@ O projeto foi apresentado na **II FECITEC (Feira de Ciência e Tecnologia)**.
 
 O processo do projeto incluiu Business Model Canvas, termo de abertura, prototipação das interfaces no Figma, modelagem do banco em MySQL e apresentações avaliativas.
 
-A revisão de segurança e a publicação deste repositório, em 2026, foram feitas por Luan Silva Ribeiro.
-
 ## Documentação e banner
 
 - [Documentação completa do TCC (PDF)](docs/documentacao-gpbus.pdf): problema, objetivos, metodologia e o desenvolvimento das versões web, desktop e mobile
